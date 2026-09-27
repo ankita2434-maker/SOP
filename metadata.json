@@ -1,0 +1,6 @@
+{
+  "name": "SOP Builder",
+  "description": "Turn messy operational notes and transcripts into formal, auditable Standard Operating Procedures with strict source traceability and guardrails.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

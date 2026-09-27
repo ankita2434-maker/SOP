@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/generate-sop"
+  to = "/.netlify/functions/generate-sop"
+  status = 200
+
+[[redirects]]
+  from = "/api/verify-passcode"
+  to = "/.netlify/functions/verify-passcode"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
